@@ -13,15 +13,6 @@ namespace SugerenciasWF.Registro {
     public partial class rSugerenciasWF {
         
         /// <summary>
-        /// TextBoxId control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxId;
-        
-        /// <summary>
         /// TextBoxFecha control.
         /// </summary>
         /// <remarks>
@@ -29,6 +20,15 @@ namespace SugerenciasWF.Registro {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxFecha;
+        
+        /// <summary>
+        /// TextBoxId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxId;
         
         /// <summary>
         /// TextBoxDescripcion control.
@@ -40,30 +40,30 @@ namespace SugerenciasWF.Registro {
         protected global::System.Web.UI.WebControls.TextBox TextBoxDescripcion;
         
         /// <summary>
-        /// Limpiar control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Limpiar;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Guardar control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Guardar;
+        protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-        /// Eliminar control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Eliminar;
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }

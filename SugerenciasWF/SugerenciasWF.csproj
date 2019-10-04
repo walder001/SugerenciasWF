@@ -77,6 +77,8 @@
     <Content Include="Consulta\cSugerenciasWF.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Registro\Index.html" />
+    <Content Include="Registro\main.css" />
     <Content Include="Registro\rSugerenciasWF.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -118,6 +120,8 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\Sugerencias - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Sugerencias - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -128,6 +132,20 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{f28cc246-f960-428a-9f37-46acb994d7d0}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{a7f7345b-b950-4436-be09-0a2265d29f81}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{a9a4405f-6a61-46ee-b33a-d14286178adc}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
